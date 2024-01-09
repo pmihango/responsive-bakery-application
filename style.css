@@ -107,3 +107,42 @@ body{
  .header .search-form label:hover{
     color: var(--main-color);
  }
+
+ /* cart section */
+ .header .cart-items-container{
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 28rem;
+    background-color: white;
+    height: 80vh;
+    border: solid 1px black;
+    padding: 2rem 0;
+    
+
+ }
+
+ .header .cart-items-container .cart-item{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: solid 1px black;
+    position: relative;
+ }
+
+ .header .cart-items-container .cart-item img{
+    height: 6rem;
+ }
+
+ .header .cart-items-container .cart-item span{
+    position: absolute;
+    top: 2%;
+    right: 4%;
+    font-size: 2rem;
+    color: var(--black);
+    cursor: pointer;
+ }
+
+ .header .cart-items-container .cart-item span:hover{
+    color: red;
+ }
